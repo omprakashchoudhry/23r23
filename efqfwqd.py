@@ -1,0 +1,13 @@
+A=list(input())
+temp=A[0]
+s=A[1]
+a=A[2]
+b=A[3]
+A[1]=temp
+A[0]=s
+A[2]=b
+A[3]=a
+print(A[0],end="")
+print(A[1],end="")
+print(A[2],end="")
+print(A[3],end="")
